@@ -1,3 +1,5 @@
+//Funzione che fa sparire le card al click di un bottone
+
 const button = document.getElementById('removeCard')
 const card = document.querySelectorAll('.card')
 
@@ -8,8 +10,7 @@ button.addEventListener('click', () => {
     }
 })
 
-
-
+//Funzione che conta il numero di 'viaggi' presenti sulla pagina
 const  viaggi = document.getElementsByClassName('custom-trip')
 const numeroViaggi = document.getElementById('viaggi')
 
